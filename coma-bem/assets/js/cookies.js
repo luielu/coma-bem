@@ -4,7 +4,7 @@ function checkCookie() {
     if (user != null && user != "") {
     msg.innerHTML = "Bem-vindo de volta " + user;
     } else {
-    user = prompt("Digite seu nome:", "");
+    user = prompt("Olá, qual o seu nome?", "");
     if (user != null && user != "") {
     setCookie("user", user, 365);
     msg.innerHTML="Bem-vindo " + user;
@@ -40,4 +40,7 @@ function getCookie(c_name) {
     c_value = unescape(c_value.substring(c_start,c_end));
     }
     return c_value;
+
+    
     }
+

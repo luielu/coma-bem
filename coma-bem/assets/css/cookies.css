@@ -4,16 +4,10 @@
     color: black;
 }
 
-body{
-  background-color: white;
-  color: darksalmon;
-}
 
-header>h2{
-  text-align: center;
-}
 
-/* Reset */
+
+/* Reset 
 *{  
     margin: 0; 
     padding: 0; 
@@ -130,7 +124,7 @@ h2 {
 .campo:focus {
  
   background-color: #fff;
-  color:#756e68;
+  color:#ed9d56;
 
 }
 
@@ -151,7 +145,7 @@ h2 {
 
 .link:hover { color:#404040; }
 
-/* Animação */
+
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
@@ -187,7 +181,7 @@ h2 {
   }
 }
 
-/* Animação Fade-in*/
+
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -209,3 +203,4 @@ h2 {
 
 }
 
+*/

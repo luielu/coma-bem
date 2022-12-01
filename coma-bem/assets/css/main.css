@@ -108,7 +108,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 600;
 		text-transform: uppercase;
-		color: rgb(78, 78, 78);
+		color: #888;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -192,7 +192,6 @@ input, select, textarea {
 	p {
 		text-align: justify;
 		margin-bottom: 2em;
-		color: rgb(82, 82, 82);
 	}
 
 	ul, ol, dl, table, blockquote {
